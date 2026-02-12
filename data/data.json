@@ -1,0 +1,90 @@
+{
+    "settings": {
+        "logo": ""
+    },
+    "hero": {
+        "title": "Hi, I'm <span class=\"highlight\">Thivin De Mel<\/span>",
+        "subtitle": "Aspiring Cloud Security Architect | Secure Web Developer",
+        "image": "assets\/uploads\/698dded13f7f2.png"
+    },
+    "about": {
+        "description": "I\u2019m a Cyber Security undergraduate with a strong passion for Cloud Security and secure web development. I combine technical knowledge in networking, programming, and system security with practical experience building responsive, secure web applications.\n\nFrom developing static agency websites to building dynamic e-commerce platforms with secure backend logic, I focus on creating solutions that are not only functional and user-friendly but also resilient and secure. I actively explore cybersecurity tools and frameworks to strengthen my understanding of vulnerabilities and defensive strategies.\n\nI aim to specialize in Cloud Security Architecture and design scalable, secure systems that integrate security at every stage of development.",
+        "image": "assets\/uploads\/698dcfc49490c.png"
+    },
+    "skills": [
+        {
+            "name": "HTML5",
+            "icon": "fab fa-html5"
+        },
+        {
+            "name": "CSS3",
+            "icon": "fab fa-css3-alt"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "fab fa-js"
+        },
+        {
+            "name": "PHP",
+            "icon": "fab fa-php"
+        },
+        {
+            "name": "MySQL",
+            "icon": "fas fa-database"
+        },
+        {
+            "name": "Kali Linux",
+            "icon": "fab fa-linux"
+        },
+        {
+            "name": "Vulnerability Assessment",
+            "icon": "fas fa-bug"
+        },
+        {
+            "name": "Wireshark",
+            "icon": "fas fa-network-wired"
+        },
+        {
+            "name": "Bash Scripting",
+            "icon": "fas fa-terminal"
+        },
+        {
+            "name": "Canva",
+            "icon": "fas fa-palette"
+        },
+        {
+            "name": "Figma",
+            "icon": "fab fa-figma"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Vinzeres \u2013 Web Development Agency Website",
+            "description": "Developed and deployed a fully responsive static website for a web development agency. Focused on modern UI\/UX design, performance optimization, and secure deployment using GitHub Pages. Implemented clean code structure and cross-browser compatibility.",
+            "image": "assets\/uploads\/698dd48a5d561.png",
+            "code_link": "",
+            "demo_link": "https:\/\/www.vinzeres.com\/"
+        },
+        {
+            "title": "Christopherz.lk \u2013 Dynamic E-Commerce Website",
+            "description": "Designed and developed a full-stack e-commerce platform with secure user authentication and MySQL database integration. Built backend functionality to manage products, users, and orders while applying secure coding practices and input validation to prevent vulnerabilities.",
+            "image": "assets\/uploads\/698dd4e356252.png",
+            "code_link": "",
+            "demo_link": "https:\/\/christopherz.lk\/"
+        },
+        {
+            "title": "Ceylon Logistics \u2013 Dynamic Promotions Management System",
+            "description": "Built a lightweight custom content management system using PHP and JSON-based storage. Implemented admin authentication, secure file validation, and responsive UI components including interactive sliders and modal features for service promotions.",
+            "image": "assets\/uploads\/698dd558ef097.png",
+            "code_link": "",
+            "demo_link": "https:\/\/specialpromotions.ceylonlogistics.com\/"
+        },
+        {
+            "title": "Digit Media Solutions \u2013 Corporate Website",
+            "description": "Developed a responsive corporate website with dynamic content handling using JavaScript and JSON. Built a client-side admin dashboard and optimized UI\/UX for seamless navigation across all devices.",
+            "image": "assets\/uploads\/698dd59ec3c3a.png",
+            "code_link": "",
+            "demo_link": "http:\/\/digitmedia-solutions.com\/"
+        }
+    ]
+}
