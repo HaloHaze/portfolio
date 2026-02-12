@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css?v=2.34">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo" id="logo-container"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-blob blob-1"></div>
+            <div class="hero-blob blob-2"></div>
+            <div class="hero-blob blob-3"></div>
+            <div class="hero-content">
+                <h1 id="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+                <p id="hero-subtitle">I build things for the web.</p>
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+            <div class="hero-image" id="hero-img-container">
+                <!-- Placeholder for hero image -->
+                <div class="placeholder-img"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text" id="about-text-container">
+                    <!-- Dynamic Content -->
+                </div>
+                <div class="about-img" id="about-img-container">
+                    <div class="placeholder-profile"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-title">
+                <h2>My Skills</h2>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Dynamic Content -->
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-wrapper">
+                <button class="scroll-btn left-btn" id="scroll-left"><i class="fas fa-chevron-left"></i></button>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Dynamic Content -->
+                </div>
+                <button class="scroll-btn right-btn" id="scroll-right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>I'm open to discussing web development projects or partnership opportunities.</p>
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>thivind7@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+94 75 744 1915</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mount Lavinia, Sri Lanka</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/HaloHaze" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thivin-de-mel-ab4b842b7/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/94757441915" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="d1d9aa6d-1e22-4f01-a476-b8191013d09b">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Thivin De Mel. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Project Image">
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <div class="modal-links">
+                    <a id="modal-code" href="#" target="_blank" class="btn secondary-btn"><i class="fab fa-github"></i>
+                        Code</a>
+                    <a id="modal-demo" href="#" target="_blank" class="btn primary-btn"><i
+                            class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js?v=2.5"></script>
+</body>
+
+</html>
